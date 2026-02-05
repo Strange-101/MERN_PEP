@@ -1,0 +1,23 @@
+[
+  {
+    "id": 12324786,
+    "name": "Kunal",
+    "email": "kunalmahore@gmail.com",
+    "age": 21,
+    "course": "btech"
+  },
+  {
+    "id": 12324787,
+    "name": "prithvi",
+    "email": "prithvi@gmail.com",
+    "age": 21,
+    "course": "btech"
+  },
+  {
+    "id": 12324784,
+    "name": "abhigyan",
+    "email": "abhigyan@gmail.com",
+    "age": 21,
+    "course": "btech"
+  }
+]

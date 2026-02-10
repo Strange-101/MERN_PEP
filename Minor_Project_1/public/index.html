@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Submit Complaint</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <h2>Submit Complaint</h2>
+
+    <input id="title" placeholder="Title" />
+    <textarea id="desc" placeholder="Description"></textarea>
+
+    <select id="priority">
+        <option value="normal">Normal</option>
+        <option value="high">High</option>
+    </select>
+
+    <button onclick="submitComplaint()">Submit</button>
+    <button onclick="goToAdmin()" class="admin-btn">Admin Panel</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

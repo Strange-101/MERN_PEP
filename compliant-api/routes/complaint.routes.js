@@ -10,8 +10,10 @@ import authMiddleware from "../middleware/auth.middleware.js";
 
 const router = express.Router();
 
+
 router.get("/", getAllComplaints);
 router.post("/", createComplaint);
+
 
 router.put("/:id/resolve", authMiddleware, resolveComplaint);
 router.delete("/:id", authMiddleware, deleteComplaint);
